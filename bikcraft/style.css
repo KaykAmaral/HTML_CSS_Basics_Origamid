@@ -1,0 +1,94 @@
+/* 
+# Cores
+cinza-fundo: #f7f7f7
+cinza-texto: #c6c6c6
+vermelho: #ee2211
+
+# Tipografia
+fonte: Arial
+parágrafos: 20px
+Vantagens Bikcraft: 64px
+
+# Tamanhos
+conteúdo principal: máximo 1000px  
+*/
+
+body {
+  background-color: #f7f7f7;
+  justify-content: center;
+  font-family: Arial;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.logo img {
+  width: 250px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links a {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 20px;
+  color: #000;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  margin:  10px 100px;
+}
+
+.info {
+  background-color: #fff;
+  text-align: right;
+  padding: 20px;
+}
+
+.info h1 {
+  font-size: 32px;
+  padding: 20px;
+}
+
+.info p {
+  padding: 20px;;
+}
+
+.info a {
+  background-color: #ee2211;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.bicicleta img {
+  max-width: 500px;
+}
+
+.vantagem {
+  font-size: 38px;
+  text-align: right;
+  color: #c6c6c6;
+}
+
+.icons {
+  padding: 20px;
+  justify-content: center;
+
+}
+
