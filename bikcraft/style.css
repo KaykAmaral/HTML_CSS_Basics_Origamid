@@ -139,3 +139,39 @@ footer {
 footer p {
   font-size: 1.2rem;
 }
+
+
+
+/* Responsividade */
+
+@media (max-width: 42rem) {
+
+  /* Cabeçalho */
+
+  header h1 {
+    margin: 0;
+  }
+
+  header nav ul {
+    width: 100%;
+  }
+
+  header nav ul li {
+    display: block;
+  }
+
+  header nav ul li a{
+    text-align: center;
+    display: block;
+  }
+
+
+  /*Principal*/
+
+  main {
+    margin: 0;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+
+}
